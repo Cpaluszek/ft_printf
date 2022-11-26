@@ -6,7 +6,7 @@
 /*   By: cpalusze <cpalusze@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 15:13:48 by cpalusze          #+#    #+#             */
-/*   Updated: 2022/11/16 08:51:59 by cpalusze         ###   ########.fr       */
+/*   Updated: 2022/11/24 11:59:03 by cpalusze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,11 @@
 # define HEX_BASE_LOWER "0123456789abcdef"
 # define HEX_BASE_UPPER "0123456789ABCDEF"
 
-// TODO: stay uniform with const vars
-
 int		ft_printf(const char *input, ...);
 
 int		ft_pick_conversion(const char c, va_list args);
 
+/*	Print	*/
 int		ft_print_decimal(const int nb);
 int		ft_print_string(const char *str);
 int		ft_print_pointer(size_t ptr);

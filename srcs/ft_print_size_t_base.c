@@ -6,13 +6,12 @@
 /*   By: cpalusze <cpalusze@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 08:18:48 by cpalusze          #+#    #+#             */
-/*   Updated: 2022/11/16 08:22:28 by cpalusze         ###   ########.fr       */
+/*   Updated: 2022/11/24 11:57:42 by cpalusze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-// NOTE: unsigned long long instead of size_t
 int	ft_print_size_t_base(size_t nb, char *base, size_t base_len)
 {
 	int	char_count;
